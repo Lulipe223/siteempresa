@@ -6,6 +6,11 @@
     font-size: 10px;
 }
 
+img {
+    width: 120px;
+    height: 80px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,11 +41,6 @@ section {
     background-color: var(--bg);
 }
 
-img {
-    width: 120px;
-    height: 80px;
-}
-
 .header section {
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ img {
 }
 
 .navbar a {
-    max-width: 2rem;
+    max-width: 0 1rem;
     font-size: 1.8rem;
     color: #fff;
 }
@@ -94,23 +94,23 @@ img {
 }
 
 .home-container {
-    background: url("./img/salgadinhos-fritos-de-festa-dispostos-em-uma-placa-de-aco-inoxidavel-com-fundo-preto_309761-228.avif");
-    height: 100vh;
+    background: url(./ChatGPT\ Image\ 24\ de\ abr.\ de\ 2025\,\ 22_18_30.png);
+    height: 130vh;
     background-position: center;
     background-size: cover;
 }
 
 .content {
-    max-width: 60rem;
+    max-width: 100rem;
 }
 
 .content h3 {
-    color: #fff;
+    color: #ffffff;
     font-size: 6rem;
 }
 
 .content p {
-    color: #fff;
+    color: #ffffff;
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.8;
@@ -155,7 +155,7 @@ img {
 
 .menu .box-container {
     display: grid;
-    grid-template-columns: repeat (auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat (auto-fit, minmax (30rem, 1fr));
     gap: 1.5rem;
 }
 
