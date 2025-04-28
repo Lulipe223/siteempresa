@@ -1,0 +1,83 @@
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 8%;
+    background-color: #fff8e1;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .sobre-container {
+    max-width: 1000px;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    color: #1d1d1d;
+    margin-bottom: 20px;
+  }
+  
+  .section-title span {
+    color: #e9a209;
+  }
+  
+  .section-subtitle {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .valores-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .valores-list li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .valores-list li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    color: #ff6600;
+  }
+  
+  .btn-default {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #ffcb45;
+    color: #1d1d1d;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-default:hover {
+    background-color: #f8d477;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .botao {
+    display: block;
+    margin: 0 auto;
+  }
+  

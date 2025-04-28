@@ -1,119 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Que Bomm Alimentos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Que BOMM</title>
 </head>
-
 <body>
+    <header>
+        <nav id="navbar">
+            <img src="c:\Users\aneph\OneDrive\Área de Trabalho\Site de Empresa\Site de Empresa\img\QUEBOMM - Logo 02.png" alt="Logo" class="logo">
+        <ul id="nav_list">
+            <li class="nav-item">
+            <a href="index.html">Início</a>
+        </li>
+        <li class="nav-item">
+            <a href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+            <a href="produtos.html">Produtos</a>
+        </li>
+        <li class="nav-item">
+            <a href="novidades.html">Novidades</a>
+        </li>
+        <li class="nav-item">
+            <a href="contato.html">Contato</a>
+        </li>
+        </ul>
+        <button class="btn-default" onclick="window.location.href='sobre.html'">Saiba Mais</button>
 
-    <header class="header">
-        <section>
-            <a href="#" class="logo">
-                <img src="./img/QUEBOMM - Logo 02.png" alt="logo">
-            </a>
-
-            <nav class="navbar">
-                <a href="#Home">Home</a>
-                <a href="#About">Sobre</a>
-                <a href="#Menu">Menu</a>
-                <a href="#Address">Endereço</a>
-            </nav>
-
-            <div class="icons">
-                <img width="20" height="20" src="https://img.icons8.com/ios-filled/60/ffffff/search--v1.png"
-                    alt="search--v1" />
-                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/60/ffffff/shopping-cart--v1.png"
-                    alt="shopping-cart--v1" />
-            </div>
-        </section>
+        
+        </nav>
     </header>
-
-    <div class="home-container">
-        <section id="#Home">
-            <div class="content">
-                <h3>O SALGADO PARA TODAS AS HORAS</h3>
-                <P> A Que Bom Alimentos é uma empresa especializada na produção de salgados artesanais, perfeita para eventos, festas e momentos especiais. 
-                    Com ingredientes de alta qualidade e receitas caseiras, oferecemos uma variedade deliciosa de opções, como coxinhas, quibes, empadas, bolinhas de queijo e muito mais. 
-                    Nosso compromisso é entregar sabor, frescor e pontualidade em cada pedido. Surpreenda seus convidados com os salgados que conquistam todos os paladares!</P>
-                <a href="#" class="btn">Peça já</a>
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+    
+                <p class="description">
+                    Aqui o sabor é protagonista. Somos apaixonados por salgados artesanais, feitos com ingredientes selecionados e muito carinho. Perfeitos para festas, eventos ou aquele lanche especial. Explore nosso cardápio e descubra o verdadeiro significado de comer bem.
+                </p>
+    
+                <div id="cta_buttons">
+                    <a href="produtos.html" class="btn-default">
+                        Ver cardápio
+                    </a>
+                </div>
+            </div>
+    
+            <div id="banner">
+                <img src="c:\Users\aneph\OneDrive\Área de Trabalho\index.html\salgados.png" alt="Salgados">
             </div>
         </section>
-    </div>
-
-    <section class="About" id="About">
-        <h2 class="title">Sobre <span>Nós</span></h2>
-        <div class="row">
-            <div class="container-image">
-                <img src="./img/COQUETEL - CONJUNTO (7973).jpg" alt="sobre-nos"> 
-            </div>
-            <div class="content">
-                <h3>O Que Faz Nosso Salgado Especial</h3>
-                <p>O que torna o salgado da Sabor & Festa realmente especial é o cuidado em cada detalhe. 
-                    Desde a escolha dos ingredientes frescos até o preparo artesanal, tudo é feito com muito carinho e atenção. 
-                    A massa é leve e saborosa, o recheio é sempre generoso e bem temperado, e o resultado é uma explosão de sabor a cada mordida!</p>
-                <p>Além disso, buscamos sempre inovar, oferecendo versões tradicionais e também opções criativas para agradar todos os gostos. 
-                    É essa combinação de qualidade, sabor e dedicação que transforma um simples salgado em uma experiência inesquecível...</p>
-                <a href="#" class="btn">Saiba Mais</a>
-            </div>
-
-        </div>
-        <section class="menu" id="menu">
-            <h2 class="title">Nosso<span>Menu</span></h2>
-
-            <div class="box-container">
-            </div class="box">
-            <img src="./img/BANDEJAS - BOLINHA NAPOLITANA.jpg" alt="item-1">
-            <h3>Bolinha Napolitana</h3>
-            <div class="price">R$ 16,90</div>
-            <a href="#" class="btn">Adicione ao Carrinho</a>
-            <div>
-            </div class="box">
-            <img src="./img/BANDEJAS - BOLINHO DE FEIJOADA.jpg" alt="item-1">
-            <h3>Bolinho Feijoada</h3>
-            <div class="price">R$ 16,90</div>
-            <a href="#" class="btn">Adicione ao Carrinho</a>
-            <div>
-            </div class="box">
-            <img src="./img/BANDEJAS - COXINHA DE FRANGO.jpg" alt="item-1">
-            <h3>Coxinha de Frango</h3>
-            <div class="price">R$ 16,90</div>
-            <a href="#" class="btn">Adicione ao Carrinho</a>
-            <div>
-            </div class="box">
-            <img src="./img/BANDEJAS - EMPADA DED FRANGO.jpg" alt="item-1">
-            <h3>Empada de Frango</h3>
-            <div class="price">R$ 16,90</div>
-            <a href="#" class="btn">Adicione ao Carrinho</a>
-            <div>
-            </div class="box">
-            <img src="./img/BANDEJAS - KIBE.jpg" alt="item-1">
-            <h3>Kibe</h3>
-            <div class="price">R$ 16,90</div>
-            <a href="#" class="btn">Adicione ao Carrinho</a>
-            <div>
-            </div class="box">
-            <img src="./img/BANDEJAS - COXINHA DE FRANGO.jpg" alt="item-1">
-            <h3>Coxinha de Frango Requeijão</h3>
-            <div class="price">R$ 16,90</div>
-            <a href="#" class="btn">Adicione ao Carrinho</a>
-            <div>
-            </div>
-
-        </section>
-
-        <section class="#address" id="address">
-            <h2 class="title">Nosso<span>Endereço</span></h2>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.4697325197835!2d-43.974364323884835!3d-19.946738338831782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697a55077d4ef%3A0x30301eefd7ba7f24!2sR.%20Lindolfo%20de%20Azevedo%2C%201685%20-%20Jardim%20America%2C%20Belo%20Horizonte%20-%20MG%2C%2030421-428!5e0!3m2!1spt-BR!2sbr!4v1745537578756!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-    </section class="footer">
-    </section>
-    <div class="Share"></div>
-</body>
-
-</html>
+    </main>
+    

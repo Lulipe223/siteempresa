@@ -1,0 +1,100 @@
+#home {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    min-height: 90vh;
+    padding: 50px 50px; 
+    position: relative;
+    background: #feeabf;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 30px; 
+}
+
+#cta .title {
+    font-size: 3.2rem;
+    color: black;
+}
+
+#cta .title span {
+    color: #e9a209;
+}
+
+#cta .description {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    background: #e9a209;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #1d1d1d;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+#cta_buttons a:hover {
+    background: #c48807;
+    color: white;
+}
+
+#banner {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+#banner::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #ffdc71;
+    border-radius: 50%;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#banner img {
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
+    z-index: 2;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+#banner img:hover {
+    transform: scale(1.05);
+}
+
+.shape {
+    background-color: #e9a209;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    z-index: 1;
+}
+
+    
